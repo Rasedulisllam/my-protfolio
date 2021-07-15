@@ -1,6 +1,10 @@
 img{
     max-width:100%;
 }
+*{
+    margin:0;
+    padding:0;
+}
 a{
     text-decoration:none;
     color:black;
@@ -8,7 +12,24 @@ a{
 h1,h2,h3,h4,h5,h6{
     font-family: 'Poppins', sans-serif;
 }
-
+body{
+    background-color:#101010;
+}
+.color-gray{
+    color:#929292;
+}
+.max-margin{
+    margin:100px 0;
+}
+.max-padding{
+    padding:100px 0;
+}
+.fix-margin{
+    margin:80px 0;
+}
+.max-padding{
+    padding:80px 0;
+}
 .my-nav-main{
     position:absolute;
     width: 100%;
@@ -26,8 +47,6 @@ h1,h2,h3,h4,h5,h6{
 .my-manu{
     justify-content: flex-end;
 }
-.my-manu ul{}
-.my-manu ul li{}
 .my-manu ul li a{
     color:#fff;
     display:inline-block;
@@ -87,7 +106,6 @@ h1,h2,h3,h4,h5,h6{
     bottom: 14px;
     right: 41px;
 }
-.hero-social ul{}
 .hero-social ul li{
     list-style:none;
 }
@@ -101,4 +119,91 @@ h1,h2,h3,h4,h5,h6{
 .hero-social ul li a:hover{
     color:orange;
 }
+/* about section style */
 
+.about-head{
+    color:#fff;
+}
+.about-head p{
+    color:gray;
+}
+.about-head h2{
+    font-weight: 600;
+    font-size: 42px;
+}
+.about-style{
+    width: 5px;
+    height: 5px;
+    background-color: #009e66;
+    margin: auto;
+    margin-top: 30px;
+    position:relative;
+}
+.about-style::before{
+    content: "";
+    width: 30px;
+    height: 5px;
+    background-color: #009e66;
+    position: absolute;
+    right: 160%;
+}
+.about-style::after{
+    content: "";
+    width: 30px;
+    height: 5px;
+    background-color: #009e66;
+    position: absolute;
+    left: 160%;
+}
+
+.about-content{
+    color:#fff;
+}
+.about-img{
+    padding-top:15px;
+}
+.about-
+.about-info h3{
+    color:#009e66;
+}
+.about-info h1{
+
+}
+.about-info-item{
+    display: flex;
+}
+.about-info-item p{
+    margin-left:10px;
+    color:#929292;
+}
+
+.about-social{
+   display: flex;
+}
+.about-social a{
+    color:#fff;
+}
+.about-button{
+    /* display: inline-block; */
+    padding: 7px 20px;
+    background-color: #009e66;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    transition: all .4s ease;
+    border:1px solid transparent;
+}
+.about-button:hover{
+    color:#009e66;
+    border:1px solid #009e66;
+    background-color: transparent;
+}
+.about-social ul{
+    margin-left:50px;
+}
+.about-social ul li{
+    list-style: none;
+}
+.about-social ul li a{
+    padding:5px;
+}
