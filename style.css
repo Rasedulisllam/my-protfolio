@@ -271,9 +271,6 @@ about section style
 /* ===========================
     testimonial section
 =============================*/
-.testimonial-main{
-    margin:80px 0;
-}
 .testimonial-item{
     background-color: #161616;
 }
@@ -282,4 +279,7 @@ about section style
     font-size: 54px;
     top: 32px;
     right: 34px;
+}
+.testimonial-main .owl-theme .owl-dots .owl-dot span{
+    margin-top: 26px;
 }
