@@ -22,7 +22,7 @@ body{
 p{
      color:#929292;
 }
-h3,h5{
+h1,h2,h3,h4,h5,body{
     color:#fff;
 }
 .section-head-h2{
@@ -45,6 +45,27 @@ h3,h5{
 .max-padding{
     padding:80px 0;
 }
+.my-button{
+    color:#fff;
+    position:relative;
+    padding: 7px 20px;
+    background-color: var(--base-color);
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    transition: all .4s ease;
+    border:1px solid transparent;
+}
+.my-button:hover{
+    color:var(--base-color);
+    border:1px solid var(--base-color);
+    background-color: transparent;
+}
+.item-bg{
+    background-color: #161616;
+}
+
+
 .my-nav-main{
     position:absolute;
     width: 100%;
@@ -201,22 +222,6 @@ about section style
 .about-social a{
     color:#fff;
 }
-.about-button{
-    /* display: inline-block; */
-    position:relative;
-    padding: 7px 20px;
-    background-color: var(--base-color);
-    border-radius: 20px;
-    font-weight: 600;
-    font-size: 18px;
-    transition: all .4s ease;
-    border:1px solid transparent;
-}
-.about-button:hover{
-    color:var(--base-color);
-    border:1px solid var(--base-color);
-    background-color: transparent;
-}
 .about-button::after{
     position: absolute;
     content: '';
@@ -271,9 +276,6 @@ about section style
 /* ===========================
     testimonial section
 =============================*/
-.testimonial-item{
-    background-color: #161616;
-}
 .testimonial-info span{
     color: var(--base-color);
     font-size: 54px;
@@ -282,4 +284,22 @@ about section style
 }
 .testimonial-main .owl-theme .owl-dots .owl-dot span{
     margin-top: 26px;
+}
+
+/* =================================
+    price section style
+=====================================*/
+.price-item{
+    transition:all .5s ease;
+}
+.price-item:hover{
+    box-shadow:0px 0px 30px #009e673f;
+}
+.price-icon{
+    font-size:60px;
+    color:var(--base-color);
+}
+.price-list li{
+    padding:.5rem 0;
+    list-style:none;
 }
