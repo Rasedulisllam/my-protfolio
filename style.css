@@ -22,6 +22,9 @@ body{
 p{
      color:#929292;
 }
+h3,h5{
+    color:#fff;
+}
 .section-head-h2{
     font-weight: 600;
     font-size: 42px;
@@ -265,4 +268,18 @@ about section style
     margin-left: 22px;
 }
 
-
+/* ===========================
+    testimonial section
+=============================*/
+.testimonial-main{
+    margin:80px 0;
+}
+.testimonial-item{
+    background-color: #161616;
+}
+.testimonial-info span{
+    color: var(--base-color);
+    font-size: 54px;
+    top: 32px;
+    right: 34px;
+}
