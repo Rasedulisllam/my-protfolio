@@ -333,3 +333,26 @@ about section style
     background-color: var(--base-color);
     clip-path: polygon(0% 0%,50% 50%,0% 100%);
 }
+
+/* ==========================
+        skills section
+================================*/
+.progress-main p{
+    color:rgb(183 183 183);
+}
+.progress-item{
+    overflow: inherit;
+    border-radius:inherit;
+    height: 9px;
+    background-color: #2f2f2f;
+}
+.progress-item .progress-bar{
+    overflow: inherit;
+    height: 9px;
+    background-color: var(--base-color);
+}
+.progress-item span{
+    top:-30px;
+    color:rgb(183 183 183);
+    font-size:16px;
+}
